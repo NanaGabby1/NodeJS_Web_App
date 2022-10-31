@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+
+
+    <title>MyWebApp</title>
+  </head>
+  <body>
+    <center><h1 id="h1"> 🌞🌞Click me for awesomeness🌞🌞:</h1></center> 
+    <center><button id="Click"><img src=BIG_RED.jpg alt='BIG_RED_BUTTOM'></button></center>
+
+    <h2>
+      Welcome to awesomeness.
+    </h2>
+
+    <script>
+      const MyButton = document.getElementById('Click');
+      MyButton.addEventListener('click', function() {
+          document.getElementById('h1').innerText = "Woohoo!! You rock 😀😀😉"
+      })
+  </script>
+</html>
